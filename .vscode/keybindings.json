@@ -1,0 +1,76 @@
+[
+    {
+        "key": "ctrl+p",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "defaultSettings.action.focusSearch",
+        "when": "defaultSettingsEditor"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "actions.find"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "editor.action.selectAll"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+e",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+alt+e",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "deleteAllRight",
+        "when": "editorTextFocus"
+    }
+]

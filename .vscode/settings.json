@@ -1,52 +1,16 @@
 {
-    "tslint.enable": true,
-    "editor.lineNumbers": "on",
-    "editor.formatOnType": true,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 100,
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
-    "editor.quickSuggestions": true,
-    "editor.quickSuggestionsDelay": 10,
-    "editor.autoClosingBrackets": true,
-    "editor.autoIndent": true,
-    "editor.selectionHighlight": true,
-    "editor.referenceInfos": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "editor.trimAutoWhitespace": true,
+    "[typescript]": {},
+    "[css]": {},
+    "git.ignoreMissingGitWarning": true,
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[python]": {
+        "editor.tabSize": 4
+    },
     "[html]": {
         "editor.tabSize": 2
     },
-    "[css]": {
-        "editor.tabSize": 2
-    },
-    //以下要検討
-    "files.associations": {},
-    // 既定の HTML フォーマッタを有効/無効にします
-    "html.format.enable": true,
-    // 末尾に改行を入れます。
-    "html.format.endWithNewline": false,
-    // <head> セクションと <body> セクションをインデントします。
-    "html.format.indentInnerHtml": false,
-    // 1 行あたりの最大文字数 (0 = 無効にする)。
-    "html.format.wrapLineLength": 120,
-    // ビルトイン HTML 言語サポートが Angular V1 のタグおよびプロパティを候補表示するかどうかを構成します。
-    "html.suggest.angular1": true,
-    // ビルトイン HTML 言語サポートが HTML5 のタグ、プロパティ、および値を候補表示するかどうかを構成します。
-    "html.suggest.html5": true,
-    // ビルトイン HTML 言語サポートが Ionic のタグ、プロパティ、および値を候補表示するかどうかを構成します。
-    "html.suggest.ionic": true,
-    // 既定の JSON フォーマッタを有効/無効にします (再起動が必要です)
-    "json.format.enable": true,
-    // 既定の TypeScript フォーマッタを有効/無効にします。
-    "typescript.format.enable": true,
-    // 型定義の自動取得に使用される NPM 実行可能ファイルへのパスを指定します。TypeScript 2.3.4 以上が必要です。
-    "typescript.npm": null,
-    // 使用する tsserver と lib*.d.ts ファイルが含まれているフォルダーのパスを指定します。
-    "typescript.tsdk": ".node_modules/typescript/lib",
-    // 端末を起動する明示的な開始パスです。これはシェル プロセスの現在の作業ディレクトリ (cwd) として使用されます。特にルート ディレクトリが cwd に適していない場合に、ワークスペースの設定で役立ちます。
-    "terminal.integrated.cwd": "",
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 0
 }
